@@ -1,0 +1,3 @@
+pandas==1.5.3
+boto3==1.24.30  # If using AWS
+# azure-storage-blob==2.1.0  # Uncomment if using Azure Blob Storage
