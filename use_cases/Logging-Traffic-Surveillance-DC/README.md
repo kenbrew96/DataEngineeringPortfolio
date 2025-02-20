@@ -1,8 +1,3 @@
-It seems like I missed properly formatting and including the **"Step 2: Install dependencies"** in the README. I’ll fix that right away.
-
-Here’s the updated **correctly formatted README** with **Step 2** included:
-
-```markdown
 # 🚦 Traffic Surveillance Logging (Washington D.C.)
 
 ## 📌 Project Overview
