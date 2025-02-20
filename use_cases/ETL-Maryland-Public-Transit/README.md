@@ -3,29 +3,18 @@
 ## 📌 Project Overview
 The Maryland Transit Administration (MTA) needs an **ETL pipeline** to track **bus delays** and optimize scheduling.
 
-## 📊 Dataset
-- `transit_data.csv`: Contains **bus stop times, GPS locations, and delays**.
-
-## 🛠️ Steps Implemented
-1. **Extract**: Pulls bus arrival data from `transit_data.csv`.
-2. **Transform**: Filters **late arrivals** and calculates **average delays per route**.
-3. **Load**: Saves **cleaned data** to a **PostgreSQL database** for analysis.
-
-## 🚀 Technologies Used
-- **Pandas** for data transformation.
-- **PostgreSQL** for data storage.
-- **SQLAlchemy** for database connections.
-
-## 🔧 How to Run
-```sh
-python etl_pipeline.py
+This project extracts bus transit data from a CSV file, transforms it to calculate **average delays per route**, and loads the cleaned data into a **PostgreSQL database** for further analysis.
 
 ---
 
-### **✅ Next Steps**
-🔹 **Test the ETL script** to ensure it runs without errors.  
-🔹 **Verify PostgreSQL database** to see if the table `bus_delays` is created.  
-🔹 **Move to the next use case: Cloud Storage (Chesapeake Bay Water Monitoring).**  
-
-Let me know if you need help setting up **PostgreSQL**, or if you'd like to move to the **next project!** 🚀
+## 📊 Dataset
+- **File:** `transit_data.csv`
+- **Contents:** Contains **bus stop times, GPS locations, and delays.**
+- **Sample Data:**
+  ```csv
+  bus_id,route,stop_name,arrival_time,scheduled_time,delay_minutes
+  101,Green Line,Lexington Market,08:05:00,08:00:00,5
+  102,Red Line,Penn Station,09:15:00,09:10:00,5
+  103,Blue Line,Inner Harbor,10:30:00,10:25:00,5
+  104,Green Line,Lexington Market,12:45:00,12:40:00,5
 
