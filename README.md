@@ -54,6 +54,45 @@ This guide provides a structured approach to learning data engineering, covering
 │   ├── ph_protection.py
 │   ├── data_classification.py
 │   └── README.md
+├──│   ├── ETL-Maryland-Public-Transit/
+│   │   ├── etl_pipeline.py
+│   │   ├── transit_data.csv  # Sample dataset
+│   │   ├── README.md
+│   ├── Cloud-Storage-Chesapeake-Bay/
+│   │   ├── s3_upload.py
+│   │   ├── sample_water_quality.json  # Sample dataset
+│   │   ├── README.md
+│   ├── Smart-City-Telemetry-Baltimore/
+│   │   ├── telemetry_data_collection.py
+│   │   ├── baltimore_energy_usage.csv  # Sample dataset
+│   │   ├── README.md
+│   ├── Logging-Traffic-Surveillance-DC/
+│   │   ├── system_logs.py
+│   │   ├── traffic_logs.json  # Sample dataset
+│   │   ├── README.md
+│   ├── Data-Compression-Maryland-Crime/
+│   │   ├── compress_crime_reports.py
+│   │   ├── maryland_crime_data.csv  # Sample dataset
+│   │   ├── README.md
+│   ├── Flow-Composition-School-Enrollment/
+│   │   ├── airflow_pipeline.py
+│   │   ├── student_enrollment_data.json  # Sample dataset
+│   │   ├── README.md
+│   ├── Firewalls-Hospital-Security/
+│   │   ├── configure_firewall.sh
+│   │   ├── README.md
+│   ├── Whitelisting-State-Gov-Access/
+│   │   ├── ip_whitelisting.py
+│   │   ├── README.md
+│   ├── ACLs-University-Library-System/
+│   │   ├── acl_permissions.py
+│   │   ├── README.md
+│   ├── ATOs-DMV-Digital-Transformation/
+│   │   ├── risk_assessment.py
+│   │   ├── README.md
+│   ├── PPSM-Securing-Gov-Networks/
+│   │   ├── configure_ports.py
+│   │   ├── README.md
 ├── requirements.txt
 └── README.md
 ```
