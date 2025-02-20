@@ -21,7 +21,7 @@ meter_id,location,timestamp,energy_usage
 005,Fells Point,2025-02-01 09:00:00,190
 
 -- 
-🛠️ Steps Implemented
+## 🛠️ Steps Implemented
 1. Extract
 Objective: Pull energy usage data from the CSV file (baltimore_energy_usage.csv).
 Method: We use Pandas to read and load the CSV data.
