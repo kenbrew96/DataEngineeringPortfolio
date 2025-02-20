@@ -69,8 +69,8 @@ This will:
 Extract data from baltimore_energy_usage.csv.
 Transform the data (aggregate by location and hour).
 Upload the transformed data to AWS S3 (or Azure Blob Storage).
-
-✅ Next Steps
+- 
+## ✅ Next Steps
 🔹 Verify cloud storage: Check that the data is uploaded correctly to your cloud storage (AWS S3 or Azure Blob Storage).
 🔹 Next use case: Explore Data Warehousing for Smart City Transportation.
 
