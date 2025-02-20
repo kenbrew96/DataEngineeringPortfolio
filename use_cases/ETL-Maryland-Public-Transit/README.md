@@ -20,3 +20,12 @@ The Maryland Transit Administration (MTA) needs an **ETL pipeline** to track **b
 ```sh
 python etl_pipeline.py
 
+---
+
+### **✅ Next Steps**
+🔹 **Test the ETL script** to ensure it runs without errors.  
+🔹 **Verify PostgreSQL database** to see if the table `bus_delays` is created.  
+🔹 **Move to the next use case: Cloud Storage (Chesapeake Bay Water Monitoring).**  
+
+Let me know if you need help setting up **PostgreSQL**, or if you'd like to move to the **next project!** 🚀
+
