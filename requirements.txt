@@ -1,1 +1,8 @@
+boto3
+fastavro
+pandas
+requests
+python-dotenv
+Pillow
+airflow
 
