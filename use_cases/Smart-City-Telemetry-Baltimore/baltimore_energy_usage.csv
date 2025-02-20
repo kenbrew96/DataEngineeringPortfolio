@@ -8,7 +8,7 @@ meter_id,location,timestamp,energy_usage
 007,Inner Harbor,2025-02-01 10:00:00,170
 008,Fells Point,2025-02-01 10:00:00,210
 009,Mount Vernon,2025-02-01 10:00:00,175
-# meter_id: Unique identifier for each smart meter.
-# location: GPS coordinates or specific areas within Baltimore.
-# timestamp: Date and time when the energy usage was recorded.
-# energy_usage: Energy consumed (in kilowatt-hours, kWh)
+#meter_id: Unique identifier for each smart meter.
+#location: GPS coordinates or specific areas within Baltimore.
+#timestamp: Date and time when the energy usage was recorded.
+#energy_usage: Energy consumed (in kilowatt-hours, kWh)
