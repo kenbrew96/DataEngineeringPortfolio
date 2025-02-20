@@ -1,1 +1,27 @@
+[
+  {
+    "timestamp": "2025-02-01T08:00:00Z",
+    "camera_id": "cam_101",
+    "event": "Vehicle Detected",
+    "location": "5th & K St NW",
+    "vehicle_id": "ABC123",
+    "speed": 35
+  },
+  {
+    "timestamp": "2025-02-01T08:05:00Z",
+    "camera_id": "cam_102",
+    "event": "Speeding",
+    "location": "15th & I St NW",
+    "vehicle_id": "XYZ456",
+    "speed": 60
+  },
+  {
+    "timestamp": "2025-02-01T08:10:00Z",
+    "camera_id": "cam_103",
+    "event": "Traffic Jam",
+    "location": "Pennsylvania Ave NW",
+    "vehicle_id": "DEF789",
+    "speed": 10
+  }
+]
 
