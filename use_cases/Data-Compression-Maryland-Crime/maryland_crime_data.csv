@@ -1,1 +1,6 @@
-
+crime_id,crime_type,location,timestamp
+C1001,Assault,Annapolis,2025-02-01 08:00:00
+C1002,Burglary,Baltimore,2025-02-01 08:15:00
+C1003,Theft,Silver Spring,2025-02-01 08:30:00
+C1004,Assault,Gaithersburg,2025-02-01 09:00:00
+C1005,Robbery,Frederick,2025-02-01 09:30:00
