@@ -1,1 +1,19 @@
+[
+    {
+        "sensor_id": "MD-001",
+        "location": "Annapolis Dock",
+        "timestamp": "2024-02-20T12:00:00Z",
+        "pH": 7.2,
+        "oxygen_concentration": 8.5,
+        "turbidity": 4.1
+    },
+    {
+        "sensor_id": "MD-002",
+        "location": "Chesapeake Bay Bridge",
+        "timestamp": "2024-02-20T12:05:00Z",
+        "pH": 6.8,
+        "oxygen_concentration": 7.9,
+        "turbidity": 3.8
+    }
+]
 
