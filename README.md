@@ -54,7 +54,8 @@ This guide provides a structured approach to learning data engineering, covering
 │   ├── ph_protection.py
 │   ├── data_classification.py
 │   └── README.md
-├──│   ├── ETL-Maryland-Public-Transit/
+│── use_cases/
+│   ├── ETL-Maryland-Public-Transit/
 │   │   ├── etl_pipeline.py
 │   │   ├── transit_data.csv  # Sample dataset
 │   │   ├── README.md
