@@ -21,3 +21,9 @@ def etl():
     df = extract()
     df = transform(df)
     load(df)
+
+default_args = {"start_date": datetime(2024, 1, 1)}
+
+dag = DAG("student_enrollment_pipeline", default_args=default_args, schedule_interval="@daily")
+
+task = PythonOperator(task_id="etl_task", python_callable=etl, dag=dag)
